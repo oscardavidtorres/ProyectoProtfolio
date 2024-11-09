@@ -529,12 +529,18 @@ ul.nav__list {
 .contact{
     background-color: var(--second-bg-color);
 }
+.contact h2{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 40px;
+    color: var(--text-color-white);
+}
 .contact form{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin: 5rem 0;
+    margin: 2rem 0;
     text-align: center;
 
 }
@@ -546,7 +552,7 @@ ul.nav__list {
     color: var(--text-color-white);
     background-color: var(--bg-color-black);
     border-radius: 2rem;
-    border: 2px solid var(--main-colo);
+    border: 2px solid var(--main-color);
     margin: 1.5rem 0;
     resize: none;
 }
@@ -555,7 +561,7 @@ ul.nav__list {
     background-color: var(--bg-color);
     padding: 50px 0;
 }
-.footer .social-icon{
+.footer .social-icons{
     text-align: center;
 }
 .footer ul{
@@ -579,16 +585,3 @@ ul.nav__list {
     margin-top: 40px;
     font-size: 16px;
 }
-/* Section studies and experience ends here */
-
-
-
-
-/* Section services starts here */
-
-
-
-
-
-
-/* Section services ends here */
