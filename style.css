@@ -21,6 +21,7 @@ html{
     :root {
         --bg-color-black: #080808;
         --bg-color-white:#ffffff; 
+        --second-bg-color: #001005;
         --text-color-white: #ffffff;
         /* --text-color-black: #000; */
         --main-color: #00ff51;
@@ -525,8 +526,59 @@ ul.nav__list {
     transform: translateX(0) scale(1); /* Aparece sin desplazamiento ni escalado */
 }
 
+.contact{
+    background-color: var(--second-bg-color);
+}
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
 
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--bg-color-black);
+    border-radius: 2rem;
+    border: 2px solid var(--main-colo);
+    margin: 1.5rem 0;
+    resize: none;
+}
 
+.footer{
+    background-color: var(--bg-color);
+    padding: 50px 0;
+}
+.footer .social-icon{
+    text-align: center;
+}
+.footer ul{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3 ease-in-out;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
 /* Section studies and experience ends here */
 
 
