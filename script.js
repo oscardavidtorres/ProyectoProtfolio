@@ -86,4 +86,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// Selección del ícono de menú y el navbar
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.nav__list'); 
+
+// Función para el clic en el ícono de menú
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x'); 
+    navbar.classList.toggle('active'); 
+};
+
 /**************************************************************/
